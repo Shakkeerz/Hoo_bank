@@ -50,7 +50,7 @@ function Hero() {
         <div className="absolute z-[0] w-[50%] h-[50%] bottom-20 pink__gradient" />
         {/* end gradients */}
 
-        <div className={`ss:hidden ${styles.flexCenter}`}>
+        <div className={`ss:hidden absolute right-0 top-0 `}>
           <GetStarted/>
         </div>
       </div>
